@@ -19,14 +19,14 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color:var (--primary-brand-color);
+    color:var(--primary-brand-color);
 }
 
-.logo > .logo-light {
-    color: var (--background-light);
+.logo-light {
+    color: var(--background-light);
 }
-.logo > .logo-dark {
-    color: var (--accent-text-color);
+.logo-dark {
+    color: var(--accent-text-color);
 }
 .footer
 {background-color: var(--background-dark);
@@ -35,5 +35,6 @@ color: var(--accent-subtitle);}
 .current {color: var(--primary-brand-color)}
 a {
     text-decoration: none;
+    color: inherit;
 }
 li {list-style: none;}
